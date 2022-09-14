@@ -1,0 +1,47 @@
+//variables
+$prim-color:#001555;
+$sec-color:white;
+body{
+    // width: 100%;
+    color: $sec-color;
+    background-color:$prim-color;
+    font-size: 0.8rem;
+}
+label{
+    text-transform: uppercase;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 3% auto auto auto;
+    background-color: rgb(49, 61, 108);
+    &__name, &__surname, &__select, &__radio, &__checkboxes,&__message,&__submit {
+        display: flex;
+        flex-direction: column;
+        margin: 5% 5% 0 5%;
+
+
+    }
+    &__name{
+        margin-top: 2%;
+        color: darkgray;
+    }
+    &__surname, &__select,&__radio label,.form__checboxes-lable, &__message label{
+       color: lightgray;
+    }
+    &__submit{
+        width: 20%;
+        margin:10% auto 10% auto;
+    }
+    
+}
+input, select, textarea{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+// .form__radio{
+//      margin-left: 5%;
+//         margin-right: 5%;
+// }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="post" class="form">
+
+        <div class="form__name">
+            <label> NAME</label>
+            <input type="text" name="name">
+        </div>
+        <div class="form__surname">
+            <label> SURNAME</label>
+            <input type="text" name="surname">
+        </div>
+        <div class="form__select">
+            <label> CHOOSE BATCH</label>
+            <select name="batch">
+                <option value="winter">Winter 2022</option>
+                <option value="spring">Spring 2022</option>
+                <option value="autumn">Autumn 2022</option>
+            </select>
+        </div>
+        <div class="form__radio">
+            <label for="yes_no_radio">Did you complete all the exercies from week 1?</label>
+            <p>
+                <input type="radio" name="yes_no">Yes</input>
+            </p>
+            <p>
+                <input type="radio" name="yes_no">No</input>
+            </p>
+        </div>
+
+        <div class="form__checkboxes">
+            <label class="form__checboxes-lable"> Choose your favorite exercies</label><br>
+            <div>
+                <label><input type="checkbox">CSS selectors</label><br>
+                <label><input type="checkbox">Book page</label><br>
+                <label><input type="checkbox">Belfast International Kindergarten</label><br>
+                <label><input type="checkbox">Crownsnest Retreat</label><br>
+                <label><input type="checkbox">Google page</label><br>
+                <label><input type="checkbox">Documentation page</label><br>
+                <label><input type="checkbox">Aneta Webbier Portfolio</label><br>
+            </div>
+        </div>
+        <div class="form__message">
+            <label for="w3review">WRITE FEEDBACK</label>
+            <textarea rows="4" cols="10">
+            </textarea>
+        </div>
+        <div class="form__submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

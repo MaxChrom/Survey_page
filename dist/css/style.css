@@ -1,0 +1,39 @@
+body {
+  color: white;
+  background-color: #001555;
+  font-size: 0.8rem;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 3% auto auto auto;
+  background-color: rgb(49, 61, 108);
+}
+.form__name, .form__surname, .form__select, .form__radio, .form__checkboxes, .form__message, .form__submit {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 5% 0 5%;
+}
+.form__name {
+  margin-top: 2%;
+  color: darkgray;
+}
+.form__surname, .form__select, .form__radio label, .form .form__checboxes-lable, .form__message label {
+  color: lightgray;
+}
+.form__submit {
+  width: 20%;
+  margin: 10% auto 10% auto;
+}
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
